@@ -1,0 +1,267 @@
+*
+{
+  margin :0;
+  padding :0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+    width:min(100%,480px);
+    margin :auto auto auto auto ;
+    height :100vh;
+    transition :all .2s ease-in-out ;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header 
+{
+  width:min(100%, 480px);
+  margin :auto auto auto auto;
+  position:fixed ;
+  top: 0;
+  display :flex ;
+  justify-content :space-between ;
+  align-items :center ;
+  padding :20px ;
+  background :#F4F6FC ;
+  z-index :10;
+  border :1px solid #BCC4C8 ;
+  
+}
+
+header h1 
+{
+  font-size: 1em ;
+}
+
+header button 
+{
+  outline :none ;
+  border :1px solid #BCC4C8 ;
+  background :#FFFFFF ;
+  display :block ;
+  width:35px;
+  height :35px;
+  box-shadow :0 0 7px inset rgba(3,3,3,.2);
+}
+
+.slider_container
+{
+  width:min(100%, 480px);
+  margin :20% auto 0;
+  height :auto;
+  position :relative ;
+}
+
+.slider_container h2 
+{
+  font-size :.8em;
+}
+
+.slider_container .slider_wrapper 
+{
+  width:100%;
+  height:100%;
+  display:flex ;
+  justify-content :center ;
+  flex-wrap: wrap ;
+  align-items :center ;
+  gap :5px ;
+}
+
+.sliderImg 
+{
+  width :48%;
+  height :240px;
+  border :1px solid #A1BBE2;
+  margin : 40px 0 0;
+  position :relative ;
+  display :flex ;
+  justify-content :center ;
+  align-items :center ;
+  flex-direction :column ;
+}
+
+.sliderImg img 
+{
+  width :80%;
+  height :80%;
+  object-fit :cover ;
+}
+
+
+.sliderImg .action_btn 
+{
+  width :100%;
+  display:flex ;
+  justify-content :center ;
+  align-items :center ;
+  flex-direction :column ;
+}
+
+.sliderImg .action_btn span 
+{
+  font-size :1em;
+  padding :5px ;
+  
+}
+.sliderImg .action_btn button 
+{
+  padding :10px ;
+  font-size: 1em;
+  border :1px solid #F1F1F1 ;
+  background :#FFFFFF;
+}
+
+.new_arrivals_container 
+{
+  width:min(100%, 480px);
+  margin :20% auto 0 ;
+  padding-bottom :70px ;
+}
+
+
+.new_arrivals_container h3 
+{
+  font-size :.9em;
+  padding :5px ;
+}
+
+.new_arrivals_container .new_arrivals_wrapper 
+{
+  width :100%;
+  height :auto ;
+  display :flex ;
+  justify-content :center ;
+  align-items :center ;
+  flex-wrap: wrap;  
+  gap:5px ;
+}
+
+
+.new_arrivals_wrapper .new_arrivals
+{
+ border :1px solid #A1BBE2;
+  width :48%;
+  height :330px;
+  display :flex ;
+  justify-content :center ;
+  align-items :center ;
+  flex-direction :column ;
+  overflow :hidden ;
+}
+
+.new_arrivals .arrived_img
+{
+  width :100%;
+  height:70%;
+  position :relative ;
+  padding :10px ;
+}
+
+.arrived_img  img 
+{
+  width :100%;
+  height :100%;
+  object-fit :cover ;
+}
+
+.arrived_img  button 
+{
+  position :absolute ;
+  right: 10px;
+  top: 10px;
+  outline :none;
+  border :1px solid #BCC4C8;
+  color :red;
+  background :#FFFFFF ;
+  display :block;
+  width:35px;
+  height :35px;
+  border-radius :5px 3px 4px 2px ;
+  box-shadow :0 0 7px inset rgba(3, 3, 3, .2);
+}
+
+.arrived_img button.active 
+{
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+
+
+.new_arrivals .title 
+{
+  width :100%;
+  margin-top :auto ;
+  padding :4px ;
+}
+
+.title h5 
+{
+  font-size :.5em;
+  padding :10px ;
+}
+.title span 
+{
+  display :block ;
+  
+}
+
+.title  .fullscreen 
+{
+  background :#FFFFFF ;
+  margin-left: auto ;
+  position :relative ;
+  bottom :30px ;
+  outline :none ;
+  display :block;
+  width:35px;
+  height :35px;
+  border-radius :5px 3px 4px 2px ;
+  box-shadow :0 0 7px inset rgba(3, 3, 3, .2);
+}
+
+.title  .fullscreen a 
+{
+  text-decoration :none ;
+  color :#252525 ;
+}
+.nav_bottom 
+{
+  position :fixed ;
+  bottom :0 ;
+  width:min(100%,480px);
+  display :flex ;
+  justify-content :space-around;
+  align-items :center ;
+  padding :10px ;
+  background :#F4F6FC;
+  z-index :10;
+  border :1px solid #BCC4C8;
+}
+
+.nav_bottom button 
+{
+  outline :none;
+  border :1px solid #BCC4C8;
+  background :#FFFFFF;
+  display :block;
+  width:35px;
+  height :35px;
+  border-radius :5px 3px 4px 2px ;
+  box-shadow :0 0 7px inset rgba(3, 3, 3, .2);
+}
+
+
+.nav_bottom button a 
+{
+  color : #252525;
+  text-decoration: none;
+  outline :none ;
+  
+}

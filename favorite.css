@@ -1,0 +1,166 @@
+*
+{
+  margin :0;
+  padding :0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+    width:min(100%,480px);
+    margin :auto auto auto auto ;
+    height :100vh;
+    transition :all .2s ease-in-out ;
+    font-family: 'Varela Round', sans-serif;
+}
+header 
+{
+  width:min(100%, 480px);
+  margin :auto auto auto auto;
+  position:fixed ;
+  top: 0;
+  display :flex ;
+  justify-content :space-between ;
+  align-items :center ;
+  padding :20px ;
+  background :#F4F6FC ;
+  z-index :10;
+  border :1px solid #BCC4C8 ;
+  
+}
+
+header h1 
+{
+  font-size: 1em ;
+}
+
+header button 
+{
+  outline :none ;
+  border :1px solid #BCC4C8 ;
+  background :#FFFFFF ;
+  display :block ;
+  width:35px;
+  height :35px;
+  box-shadow :0 0 7px inset rgba(3,3,3,.2);
+}
+
+
+.favorite_container 
+{
+ width:min(100%,480px);
+ margin:35% auto 0 ;
+}
+
+
+.favorite_container h2 
+{
+  font-size :.8em;
+  padding :15px ;
+}
+
+.favorite_wrapper 
+{
+  width:100%;
+  display: flex;
+  justify-content :left ;
+  align-items :center ;
+  flex-wrap: wrap ;
+  gap :10px ;
+}
+
+.favorite_wrapper  .favorite 
+{
+  width:48%;
+  height :330px;
+  border :1px solid #A1BBE2;
+}
+
+.favorite  .fav_img 
+{
+  width :100%;
+  height :70%;
+}
+
+
+.fav_img  img 
+{
+  width :100%;
+  height:100%;
+  object-fit :cover ;
+}
+
+
+.title 
+{
+  width :100%;
+  text-overflow: wrap ;
+  text-align: center ;
+  padding :5px ;
+}
+
+
+
+.title p 
+{
+  font-size:.6em;
+}
+
+.btn 
+{
+  width :100%;
+  display :flex ;
+  justify-content :space-around ;
+  align-items :center ;
+}
+.btn p
+{
+  font-size:1em;
+}
+
+.btn button 
+{
+  outline :none;
+  border :1px solid #BCC4C8;
+  background :#FFFFFF;
+  display :block;
+  width:35px;
+  height :35px;
+  border-radius :5px 3px 4px 2px;
+  box-shadow :0 0 7px inset rgba(3, 3, 3, .2);
+}
+.nav_bottom 
+{
+  position :fixed ;
+  bottom :0 ;
+  width:min(100%,480px);
+  display :flex ;
+  justify-content :space-around;
+  align-items :center ;
+  padding :10px ;
+  background :#F4F6FC;
+  z-index :10;
+  border :1px solid #BCC4C8;
+}
+
+
+.nav_bottom button 
+{
+  outline :none;
+  border :1px solid #BCC4C8;
+  background :#FFFFFF;
+  display :block;
+  width:35px;
+  height :35px;
+  border-radius :5px 3px 4px 2px ;
+  box-shadow :0 0 7px inset rgba(3, 3, 3, .2);
+}
+
+
+.nav_bottom button a 
+{
+  color : #252525;
+  text-decoration: none;
+  outline :none ;
+  
+}
